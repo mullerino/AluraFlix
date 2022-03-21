@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imersão Dev - Aula 04</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" media="screen">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div><a href="https://www.instagram.com/leandr0_muller/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1936/1936319.png" id="iInst"></a></div>
+        <div><a href="https://www.linkedin.com/in/leandro-muller-89035867/" target="_blank"><img src="https://t.ctcdn.com.br/09Y6BbLFxNn7XGCYRGzEI0p0oy8=/400x400/smart/filters:format(webp)/i490027.jpeg" id="iLink"></a>></div>
+        <div></div>
+
+        <div class="container">
+            <h1 class="page-title">AluraFlix</h1>
+                <div class="fundoTI">
+                    <div class="borda1"></div>
+                    <h2 class="page-subtitle">Adicione seus filmes, séries e animes favoritos</h2>
+                        <div class="form">
+                            <div class="backcolor">
+                                <div class="adc">
+                                    <form>
+                                    <label>Título</label>
+                                    <input type="text" name="nome" id="nom" placeholder="Capitão América" onfocus="this.value='';"><br>
+                                    <label>Escolha o que você deseja adicionar</label>
+                                    <select id="select">
+                                    <option selected disabled>Selecione</option>
+                                    <option>Anime</option>
+                                    <option>Filme</option>
+                                    <option>Série</option>
+                                </select><br>
+                                </div>
+
+                            <label class="label1">Insira o link da capa</label>
+                            <input type="text" name="name" id="addUrl" placeholder="img.com.br" required><br>
+                            </div>
+                            <button type="reset" id="enviar" value="" onclick="Adicionar()">Adicionar</button>
+                            <button type="reset" id="limpar" value="" onclick="Limpar()">Limpar tudo</button>
+                            <button type="reset" id="CleanwName" value="" onclick="LimparComNome()">Apagar pelo título</button>
+                        </form>
+                            <h2 id="invalid"></h2>
+                        </div>
+                        <div class="bordaFin1"></div>
+                </div>
+
+            <div class="cont_imgs">
+                <div class="An">
+                    <h2 id="animes">Animes</h2>
+                    <div class="rowAnimes">
+                        <div class="colunaA">
+                            <H3 id="titulo0"></H3>
+                            <img id="imgA0" style="width:100%">
+                        </div>
+                        <div class="colunaA">  
+                            <H3 id="titulo1"></H3>  
+                            <img id="imgA1" style="width:100%">
+                        </div>
+                        <div class="colunaA">
+                            <H3 id="titulo2"></H3>
+                            <img id="imgA2" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaA">
+                            <H3 id="titulo3"></H3>
+                            <img id="imgA3" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaA">
+                            <H3 id="titulo4"></H3>
+                            <img id="imgA4" style="width:100%">
+                        </div>
+                        <div class="colunaA">
+                            <H3 id="titulo5"></H3>
+                            <img id="imgA5" style="width:100%">
+                        </div>
+                </div>
+                </div><br>
+
+                <div class="Fil">
+                    <h2 id="movie">Filmes</h2>
+                    <div class="rowFilmes">
+                        <div class="colunaF">
+                            <H3 id="tituloF0"></H3>
+                            <img id="imgF0" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaF">
+                            <H3 id="tituloF1"></H3>
+                            <img id="imgF1" style="width:100%">
+                        </div>
+                        <div class="colunaF">
+                            <H3 id="tituloF2"></H3>
+                            <img id="imgF2" style="width:100%">
+                        </div>
+                        <div class="colunaF">
+                            <H3 id="tituloF3"></H3>
+                            <img id="imgF3" style="width:100%">
+                        </div>
+                        <div class="colunaF">
+                            <H3 id="tituloF4"></H3>
+                            <img id="imgF4" style="width:100%">
+                        </div>
+                        <div class="colunaF">
+                            <H3 id="tituloF5"></H3>
+                            <img id="imgF5" style="width:100%">
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="Ser">
+                    <h2 id="series">Séries</h2>
+                    <div class="rowSeries">
+                        <div class="colunaS">
+                            <H3 id="tituloS0"></H3>
+                            <img id="imgS0" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaS">
+                            <H3 id="tituloS1"></H3>
+                            <img id="imgS1" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaS">
+                            <H3 id="tituloS2"></H3>
+                            <img id="imgS2" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaS">
+                            <H3 id="tituloS3"></H3>
+                            <img id="imgS3" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaS">
+                            <H3 id="tituloS4"></H3>
+                            <img id="imgS4" style="width:100%">
+                            
+                        </div>
+                        <div class="colunaS">
+                            <H3 id="tituloS5"></H3>
+                            <img id="imgS5" style="width:100%">
+                            
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+
+        <nav>
+            <a href="https://www.alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.1642527450.svg" alt="" class="logo-alura"></a>
+            <a href="https://imersao.dev/" target="_blank"><img src="https://imersao.dev/assets/img/imersoes/dev-2021/logo-imersao-dev.1636535198.svg" alt="" class="logo-imdv"></a>
+        </nav>
+    </body>
+</html>

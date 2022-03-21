@@ -1,0 +1,222 @@
+#iInst{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+#iLink{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+body{
+    min-height: 2190px;
+    background-color: #181515;
+}
+
+.container{
+    font-family: minhafonte;
+    color: rgb(213, 229, 243);
+    text-align: center;
+}
+.cont_imgs{
+    width: 100%;
+}
+
+.borda1{
+    border: solid #e20b0b 1px; 
+    margin-top: 0px;
+}
+
+.page-title{
+    background: linear-gradient(#65e61a,rgb(228, 225, 37));
+    width: 16%;
+    margin-left: 43%;
+    margin-top: 0px;
+}
+
+.page-subtitle{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+h2{
+    margin-top: 0px;
+}
+.form{
+    text-align: center;
+    border-radius: 35px;
+    height: 245px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    width: 40%;
+    padding: 20px;
+}
+
+.backcolor{
+    background: linear-gradient(90deg,#81ca56 5%,rgb(216, 213, 53));
+    border: solid 2px #553ea8;
+    opacity: 1;
+    width: 485px;
+    margin-left: 55px;
+    text-align: left;
+    padding: 5px;
+    
+}
+
+#invalid{
+    margin-top: 40px;
+    background-color: #e20b0b;
+    width: 250px;
+    margin-left: 37%;
+}
+
+.bordaFin1{
+   border: solid #e20b0b 1px; 
+   margin-top: 134px;
+   margin-bottom: 50px;
+}
+
+.adc{
+    font-family: minhafonte;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 2%;
+    width: 500px;
+}
+
+#select{
+    text-align: center;
+    height: 35px;
+    margin-bottom: 10px;
+    width: 80px;
+    margin-top: 18px;
+    border-radius: 20px;
+}
+
+.label1{
+    font-family: minhafonte;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 2%;
+}
+
+#addUrl, #nom{
+    margin-top: 12px;
+    width: 200px;
+    border-radius: 20px;
+    height: 18px;
+}
+
+#enviar{
+    font-family: minhafonte;
+    font-size: 18px;
+    color: #fcfcfc;
+    background: linear-gradient(50deg, red 5%,#417741);
+    height: 65px;
+    width: 180px;
+    margin-top: 45px;
+    margin-left: 135px;
+    border-radius: 20px;
+}
+
+#limpar{
+    font-family: minhafonte;
+    font-size: 18px;
+    color: #fcfcfc;
+    background: linear-gradient(50deg, red 5%,#417741);
+    height: 65px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+#CleanwName{
+    font-family: minhafonte;
+    font-size: 18px;
+    color: #fcfcfc;
+    background: linear-gradient(50deg, red 5%,#417741);
+    height: 65px;
+    width: 180px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 135px;
+}
+
+.An{
+    border: solid 2px #282861;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    height: 440px;
+}
+
+.Fil{
+    border: solid 2px #282861;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 470px;
+}
+
+.Ser{
+    border: solid 2px #282861;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 465px;
+}
+
+.logo-imdv{
+    position: absolute;
+    top: 10px;
+    left: 89%;
+}
+
+.logo-alura{
+    position: absolute;
+    height: 30px;
+    top: 357%;
+}
+
+.fundoTI{
+    background-image: url("https://mobizoo.com.br/wp-content/uploads/2020/09/capa-netflix.jpg");
+    margin-left: -10px;
+    height: 35%; 
+    width: 101.4%;
+}
+
+.colunaA, .colunaS, .colunaF{
+    float: left;
+    margin-left: 20px;
+    width: 18%;
+    
+}
+
+.rowAnimes, .rowSeries, .rowFilmes{
+    content: "";
+    display: table;   
+    
+}
+
+#series{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#movie{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+@font-face{
+    font-family: 'minhafonte';
+    src: url(assests/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
