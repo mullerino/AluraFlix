@@ -1,3 +1,0 @@
-PROXIMO PASSO:
-
-- verificar se o vetor possui algum link na posição a com um if separado quando o limparnome == 1
